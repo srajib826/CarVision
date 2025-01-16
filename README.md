@@ -20,22 +20,23 @@ conditions, with accurate measurements up to 10 meters.
 
 More details on experimental results and description is provided [here](./MOREDETAILS.md) 
 
+## License and Ethical Approval
 
-## Data Collection Setup
+The codebase and dataset is free to download and can be used with GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 for non-commercial purposes. All participants involved in providing the driving data signed forms consenting to the use of collected vehicle sensor data for non-commercial research purposes. The Institute's Ethical Review Board (IRB) at IIT Kharagpur, India has approved the data collection, with the Approval Number: <b>IIT/SRIC/DEAN/2023, dated July 31, 2023</b>.
 
-To install mmWave Demo Visualizer from Texas Instruments, first go to this [link](https://dev.ti.com/gallery/view/mmwave/mmWave_Demo_Visualizer/) and select SDK [2.1.0](https://dev.ti.com/gallery/view/mmwave/mmWave_Demo_Visualizer/ver/2.1.0/). Now go to Help and select Download or Clone Visualizer. Finally you need to download and install the entire repository in your machine.
+## Reference
+To refer <i>CarVision</i> framework or the dataset, please cite the following work.
 
-Now copy all the content of the provided submodule `mmWave-Demo-Visualizer` and paste it in the installaed mmWave-demo-visualizer directory i.e. **C:\Users\UserName\guicomposer\runtime\gcruntime.v11\mmWave_Demo_Visualizer**
-
-Once you are done with the installation run 
-```bash
-launcher.exe
+BibTex Reference:
 ```
-Finally using this tool you can save mmWave data in your local machine. Data will be saved in a txt file in JSON format.
-
+@inproceedings{sarkar2025CarVision, 
+title={CarVision : Vehicle Ranging and Tracking Using mmWave Radar for Enhanced Driver Safety}, 
+author={Sarkar, Rajib and Sen, Argha and Chakraborty, Sandip},
+year={2025},
+} 
+```
 
 For questions and general feedback, contact Rajib Sarkar (srajib826@gmail.com).
-
 
 
 

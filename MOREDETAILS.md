@@ -4,9 +4,9 @@ As shown in Figure 1 and Figure 2, the
 predicted velocities closely align with ground truth values,
 indicating a high degree of accuracy.
 <div align="center">
-    <img src="assets/model_output.png"  Configuration Image 1" width="200">
+    <img src="assets/model_output.png"  Configuration Image 1" width="600">
     <p><b>Figure 1:</b> Predicted Vs Ground Truth .</p>
-    <img src="assets/noisy_vs_smooth.png"  width="200">
+    <img src="assets/noisy_vs_smooth.png"  width="600">
     <p><b>Figure 2:</b> Predicted Vs Ground Truth with moving average .</p>
 </div>
 

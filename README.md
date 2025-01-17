@@ -18,9 +18,11 @@ ical distance (approximately 2 meters). CarVision demonstrates
 reliable ranging performance in both daytime and nighttime
 conditions, with accurate measurements up to 10 meters.
 
-<hr>
+|<img align="right"  src="assets/system_overview-1.png" width="500px"/>   |  <img align="left" src="assets/Hardware_setup.png" width="500px"/> |
+|---|---|
+
 <div align="center">
-    <img src="assets/system_overview-1.png"  System Overview" width="600">
+    
 </div>
 <br>
 

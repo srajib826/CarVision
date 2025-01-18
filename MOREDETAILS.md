@@ -43,7 +43,8 @@ v[i] = v[i-1] + a[i] * Δt. Distance is similarly computed by adding the product
 ## CarVision Application
 <div align="center">
     <img src="assets/app.png"  Configuration Image 1" width="500">
-    <p><b>Figure 3:</b> Distance measurement and alert system .</p>
+    <p><b>Figure 3:</b> creenshots of the Android application for driver
+assistance.(Left) Danger alert mode: the system detects if the vehicle is too close and prompts a warning. (Right) Safe driving mode: the system detects if the vehicle is at a safe distance.</p>
     
 </div>
 

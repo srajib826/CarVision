@@ -40,6 +40,18 @@ To estimate relative velocity and distance of front car from video data we analy
 Acceleration is extracted from the Ax (g) column, representing acceleration along the x-axis. Velocity is calculated [3] iteratively by adding the product of acceleration and time interval to the previous velocity using the formula:
 v[i] = v[i-1] + a[i] * Δt. Distance is similarly computed by adding the product of the current velocity and the time interval to the previous distance using the formula: d[i] = d[i-1] + v[i] * Δt. 
 
+## CarVision Application
+<div align="center">
+    <img src="assets/app.png"  Configuration Image 1" width="500">
+    <p><b>Figure 3:</b> Distance measurement and alert system .</p>
+    
+</div>
+
+### Android Application Integration
+To demonstrate the practical application of our system, we also developed an Android application that interacts with the real-time inference results of CArVision The inference results are transmitted via a WiFi socket to the Android application, which reads the data and updates the driver's real-time notification status.The application provides two key safety features: (1) Proximity Alert The app alerts the driver when the front vehicle is too close, i.e., when the relative speed separation between the two vehicles becomes critically low, (2) Movement Alert: The app also notifies the driver when the vehicle ahead is at a safe distance.
+
+Figure 3 illustrates the interface of the application when the distance is deemed safe, and  shows the alert interface when the vehicle is too close or in potential danger. These real-time notifications are based on the predicted velocity estimations of CarVision, demonstrating its effectiveness in practical real-driving assistance.
+
 
 ## References
 1. L. Deng, T. Guo, H. Wang, Z. Chi, Z. Wu, and R. Yuan, “Obstacle

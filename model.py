@@ -71,7 +71,7 @@ model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
               metrics=['mae'])  
 
 
-
+model.save('model.h5')
 
 
 

@@ -55,6 +55,9 @@ To demonstrate the practical application of our system, we also developed an And
 
 Figure 4 illustrates the interface of the application when the distance is deemed safe, and  shows the alert interface when the vehicle is too close or in potential danger. These real-time notifications are based on the predicted velocity estimations of CarVision, demonstrating its effectiveness in practical real-driving assistance.
 
+### Time Synchronization
+To achieve time synchronization across all devices, we connected the mobile phone's Wi-Fi hotspot to the laptop. This ensured that the laptop adopted the mobile phone's system time as the reference. The mmWave radar and other modalities, including LiDAR and the camera, were connected to the laptop, ensuring all these devices operated on the same synchronized timeline. For IMU data we used andriod application called IMULog, which directly logs the data in smart phone.
+For ground truth data collection, we used the OBDELM-II sensor, which was paired with the smartphone via Bluetooth. The data was logged directly on the smartphone, maintaining consistency with the mobile phone's reference time. This approach effectively addressed the challenge of time synchronization across all devices and modalities.  
 
 ## References
 1. L. Deng, T. Guo, H. Wang, Z. Chi, Z. Wu, and R. Yuan, “Obstacle
